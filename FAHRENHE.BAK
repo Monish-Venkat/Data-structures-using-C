@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	double i,celsius;
+	int lower =-40;
+	int upper =200;
+	int step =10;
+	printf("Fahrenheit \t Celsius");
+	for(i=lower;i<=upper;i+=step)
+	{
+		celsius = (5.0/9.0)*(i-32.0);
+		printf("%.2f \t \t %.2f \n",i,celsius);
+	}
+	return 0;
+}

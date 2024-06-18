@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	printf("Enter a ");
+	scanf("%d",&a);
+	while(a>0)
+	{
+		b = b+a%10;
+		a = a/10;
+	}
+	printf("The sum is %d :",b);
+	getch();
+}
